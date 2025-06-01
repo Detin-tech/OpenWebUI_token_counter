@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Open WebUI Token Counter (Floating)",
+  "version": "1.0",
+  "description": "Floating live token estimator for Open WebUI (TipTap editor compatible)",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://brainiac.prosperspot.com/*",
+        "http://localhost/*",
+        "http://127.0.0.1/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "logo16.png",
+    "48": "logo_48.png",
+    "128": "logo_128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "logo16.png",
+      "48": "logo_48.png",
+      "128": "logo_128.png"
+    },
+    "default_title": "OpenWebUI Token Counter"
+  }
+}
