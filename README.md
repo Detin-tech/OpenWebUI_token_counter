@@ -29,3 +29,6 @@ Includes `manifest.json`, `content.js`, and `logo.png`. Designed to run as a con
 
 ## 📜 License
 MIT — Free for any use.
+
+## Notes
+System prompts, injected prompts, Knowlede, etc (I.E. Memories) are not counted.
